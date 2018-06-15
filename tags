@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Add	markinggraph.go	/^func (m *MGMarking) Add(place Place) {$/;"	f
+AddAlignPair	align.go	/^func AddAlignPair(t Transition) {$/;"	f
+AddLog	pnmlprod.go	/^func (pn *PNML) AddLog(logtrace []string) {$/;"	f
+AlignPair	alignment.go	/^type AlignPair struct {$/;"	t
+Alignment	alignment.go	/^var Alignment AlignmentS$/;"	v
+AlignmentS	alignment.go	/^type AlignmentS struct {$/;"	t
+Arc	pnml.go	/^type Arc struct {$/;"	t
+CanFire	markinggraph.go	/^func (pn *PNML) CanFire(trans Transition, m MGMarking) bool {$/;"	f
+CheckError	main.go	/^func CheckError(err error) {$/;"	f
+CheckModel	checkmodel.go	/^func CheckModel(filename string) {$/;"	f
+CreateMarkingGraph	markinggraph.go	/^func (pn *PNML) CreateMarkingGraph() MarkingGraph {$/;"	f
+CreatePNMLProduct	pnmlprod.go	/^func CreatePNMLProduct(modelfn, logfn, outdir string) {$/;"	f
+CreateTransitionMap	align.go	/^func (pn *PNML) CreateTransitionMap() {$/;"	f
+Fire	markinggraph.go	/^func (pn *PNML) Fire(trans Transition, m MGMarking) MGMarking {$/;"	f
+GenerateInvariant	pnmlprod.go	/^func (pn *PNML) GenerateInvariant() string {$/;"	f
+LOG	pnml.go	/^	LOG    string = "LOG"$/;"	c
+MGEdge	markinggraph.go	/^type MGEdge struct {$/;"	t
+MGMarking	markinggraph.go	/^type MGMarking struct {$/;"	t
+MGMarkingIDCount	markinggraph.go	/^var MGMarkingIDCount = 0$/;"	v
+MGPlace	markinggraph.go	/^type MGPlace struct {$/;"	t
+MODEL	pnml.go	/^	MODEL  string = "MODEL"$/;"	c
+MOVES	pnml.go	/^	MOVES []string = []string{LOG, MODEL, SYNC, TAU}$/;"	v
+MPlace	pnml.go	/^type MPlace struct {$/;"	t
+MakeTransArr	align.go	/^func (pn *PNML) MakeTransArr(placeMap map[string]int) TransArr {$/;"	f
+Marking	pnml.go	/^type Marking struct {$/;"	t
+MarkingGraph	markinggraph.go	/^type MarkingGraph struct {$/;"	t
+Net	pnml.go	/^type Net struct {$/;"	t
+PNML	pnml.go	/^type PNML struct {$/;"	t
+Page	pnml.go	/^type Page struct {$/;"	t
+ParseXES	xes.go	/^func ParseXES(logfn string) [][]string {$/;"	f
+Place	pnml.go	/^type Place struct {$/;"	t
+PostProcessPNML	pnmlprod.go	/^func (pn *PNML) PostProcessPNML() {$/;"	f
+PostProcessProduct	pnmlprod.go	/^func (pn *PNML) PostProcessProduct() {$/;"	f
+Print	markinggraph.go	/^func (m *MGMarking) Print() string {$/;"	f
+Print	pnml.go	/^func (pn *PNML) Print() {$/;"	f
+PrintDOT	markinggraph.go	/^func (mg *MarkingGraph) PrintDOT(filename string) {$/;"	f
+PrintDOT	pnml.go	/^func (pn *PNML) PrintDOT(filename string) {$/;"	f
+SKIP	align.go	/^	SKIP string = "»"$/;"	c
+SYNC	pnml.go	/^	SYNC   string = "SYNC"$/;"	c
+TAU	pnml.go	/^	TAU    string = "TAU" \/\/ don't use "tau" as ltsmin sees this as invisible$/;"	c
+TAUSYM	pnml.go	/^	TAUSYM string = "τ"$/;"	c
+Trace	align.go	/^	Trace []TracePart$/;"	v
+TracePart	align.go	/^type TracePart struct {$/;"	t
+TraceToAlign	align.go	/^func TraceToAlign(syncmodelfn, tracefn string) {$/;"	f
+TraceToAlignOld	align.go	/^func TraceToAlignOld(syncmodelfn, tracefn string) {$/;"	f
+Trans	align.go	/^type Trans struct {$/;"	t
+TransArr	align.go	/^type TransArr struct {$/;"	t
+Transition	pnml.go	/^type Transition struct {$/;"	t
+Trmap	align.go	/^	Trmap map[string]Transition$/;"	v
+WriteFile	main.go	/^func WriteFile(filename, contents string) {$/;"	f
+XES	xes.go	/^type XES struct {$/;"	t
+XEvent	xes.go	/^type XEvent struct {$/;"	t
+XKeyValue	xes.go	/^type XKeyValue struct {$/;"	t
+XTrace	xes.go	/^type XTrace struct {$/;"	t
+dotArcColor	pnml.go	/^func (pn *PNML) dotArcColor(arc *Arc) string {$/;"	f
+dotColor	markinggraph.go	/^func (edge *MGEdge) dotColor() string {$/;"	f
+dotTypeColor	pnml.go	/^func dotTypeColor(t, selected string) string {$/;"	f
+main	align.go	/^package main$/;"	p
+main	alignment.go	/^package main$/;"	p
+main	checkmodel.go	/^package main$/;"	p
+main	main.go	/^func main() {$/;"	f
+main	main.go	/^package main$/;"	p
+main	markinggraph.go	/^package main$/;"	p
+main	pnml.go	/^package main$/;"	p
+main	pnmlprod.go	/^package main$/;"	p
+main	xes.go	/^package main$/;"	p
+markingEquals	markinggraph.go	/^func markingEquals(a, b MGMarking) bool {$/;"	f
+matchingModelTrans	pnmlprod.go	/^func (pn *PNML) matchingModelTrans(name string) []transArcs {$/;"	f
+readLog	pnmlprod.go	/^func readLog(logfn string) [][]string {$/;"	f
+readPNML	pnml.go	/^func readPNML(filename string) []byte {$/;"	f
+readXES	xes.go	/^func readXES(logfn string) []byte {$/;"	f
+showHelp	main.go	/^func showHelp() {$/;"	f
+toString	alignment.go	/^func (al *AlignmentS) toString() string {$/;"	f
+toString	alignment.go	/^func (ap *AlignPair) toString() string {$/;"	f
+transArcs	pnmlprod.go	/^type transArcs struct {$/;"	t
